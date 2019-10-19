@@ -1,0 +1,73 @@
+body {
+  font-size: 15px;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.piecontainer {
+  transition: padding 0.7s ease;
+  padding: 10px 13%;
+}
+
+#piechart {
+  max-width: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  counter-reset: break-point 80;
+}
+#piechart svg {
+  overflow: visible;
+  transition: width 0.7s ease;
+}
+#piechart path {
+  cursor: pointer;
+}
+
+#pietext {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#pietext .panel {
+  background-color: #000000;
+  box-shadow: 8px 10px 20px #000, 4px 5px 25px #000;
+  width: 100%;
+  height: 60%;
+  border-radius: 7px;
+  padding: 0 3px;
+  float: left;
+  transition: height 0.7s ease, padding 0.7s ease;
+  perspective: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentwrapper {
+  overflow: hidden;
+  transform-style: preserve-3d;
+}
+
+#segmenttitle,
+#segmenttext {
+  text-align: center;
+}
+
+#segmenttitle {
+  transition: padding 0.7s ease;
+  padding: 20px;
+  font-size: calc( 19px + (35 - 19) * (100vw - 200px) / ( 1314 - 200 ) );
+}
+
+#segmenttext {
+  width: 100%;
+  transition: padding 0.7s ease, line-height 0.7s ease;
+  padding: 15px 20px 20px;
+  font-size: calc( 14px + (21 - 14) * (100vw - 200px) / ( 1314 - 200 ) );
+  line-height: 28px;
+}
