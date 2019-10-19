@@ -1,6 +1,7 @@
 body, html {
     background: transparent;
     font-family: Verdana, Geneva, sans-serif;
+    width: 700px;
   }
   
   label {
