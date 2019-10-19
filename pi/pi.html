@@ -1,51 +1,43 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-<script>
-window.onload = function () {
+	<head>
+		<script src="Chart.min.js"></script>
+		<script src="Chart.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+	</head>
+	<body>
+			<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+		<canvas id = "pi" width = "500" height = "500"></canvas>
+		<script>
+			var pi = document.getElementById("pi").getContext("2d");
 
-var chart = new CanvasJS.Chart("chartContainer", {
-	exportEnabled: true,
-	animationEnabled: true,
-	title:{
-		text: "Distribution"
-	},
-	legend:{
-		cursor: "pointer",
-		itemclick: explodePie
-	},
-	data: [{
-		type: "pie",
-		showInLegend: true,
-		toolTipContent: "{name}: <strong>{y}%</strong>",
-		indexLabel: "{name} - {y}%",
-		dataPoints: [
-			{ y: 26, name: "1", exploded: true },
-			{ y: 20, name: "2" },
-			{ y: 5, name: "3" },
-			{ y: 3, name: "4" },
-			{ y: 7, name: "5" },
-			{ y: 17, name: "6" },
-			{ y: 22, name: "7"}
-		]
-	}]
-});
-chart.render();
-}
-
-function explodePie (e) {
-	if(typeof (e.dataSeries.dataPoints[e.dataPointIndex].exploded) === "undefined" || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
-		e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
-	} else {
-		e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
-	}
-	e.chart.render();
-
-}
-</script>
-</head>
-<body>
-<div id="chartContainer" style="height: 370px; width: 100%;"></div>
-</body>
+			var pieData = [
+				{
+					value : 10,
+					color : "#4a7729"
+				},
+				{
+					value : 20,
+					color : "#5b7f95"
+				},
+				{
+					value : 30,
+					color : "#1d252d"
+				},
+				{
+					value : 20,
+					color : "#7a9a01"
+				},
+				{
+					value: 20,
+					color: "#115e67"
+				}
+			];
+			var pieOptions = {
+				segmentShowStroke : false,
+				animateScale : true
+			}
+			new Chart(pi).Pie(pieData, pieOptions);
+		</script>
+	</body>
 </html>
