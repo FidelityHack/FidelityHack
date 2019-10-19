@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/static/form.css"/>
+  </head> 
+  <body>
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <form>
+      <div class="portion">
+        <label>Age:</label>
+        <br>
+        <div>
+        <input list="ageamount" type="text" class="textbox" name="age" tabIndex="1" autocomplete="on">
+        <datalist id="ageamount" name="ageamount">
+          <option value="18-30"></option>
+          <option value="31-40"></option>
+          <option value="41-50"></option>
+          <option value="51-60"></option>
+          <option value="61-70"></option>
+          <option value="71-80"></option>
+        </datalist>
+        </div>
+      </div>
+      <br>
+      <div class="portion">
+        <label>Duration of Investment:</label>
+        <text id="durationamount"></text>
+        <br>
+        <div class="slidecontainer">
+          <input type="range" class="range" name="time" tabIndex="2" min="1" max="50" value="25" step="1" id="timerange">
+        </div>
+      </div>
+      <br>
+      <div class="portion">
+        <label>Amount:</label>
+        <br>
+        <div>
+        <input type="text" class="textbox" name="amount" tabIndex="3" placeholder="$0">
+        </div>
+      </div>
+      <br>
+      <div class="portion">
+        <label>Atitude for Risk:</label>
+        <text id="rangeamount"></text>
+        <br>
+        <div class="slidecontainer">
+          <input type="range" class="range" name="risk" tabIndex="4" min="0" max="10" value="5" step="1" id="range">
+        </div>
+      </div>
+      <br>
+      <div class="portion">
+        <label>Frequency of Investment:</label>
+        <br>
+        <div>
+        <input list="frequencyamount" type="text" class="textbox" name="frequency" tabIndex="5" id="frequency">
+        <datalist name='frequencyamount' id="frequencyamount" autocomplete="on">
+          <option value="Daily"></option>
+          <option value="Weekly"></option>
+          <option value="Bi-weekly"></option>
+          <option value="Monthly"></option>
+          <option value="Quarterly"></option>
+          <option value="Half Yearly"></option>
+          <option value="Yearly"></option>
+        </datalist>
+        </div>
+      </div>
+      <br>
+      <input type="submit" name="submit" value="Submit →" id="submit">
+    </form>
+    <script src="/static/form.js"></script>
+  </body>
+</html>

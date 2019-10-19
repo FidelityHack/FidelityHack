@@ -1,0 +1,131 @@
+body, html {
+    background: transparent;
+    font-family: Verdana, Geneva, sans-serif;
+    width: 50%;
+  }
+  
+  label {
+    font-size: 18px;
+    color: #45555f;
+  }
+  
+  input.textbox {
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    color: #333f48;
+    -webkit-appearance: none;
+    transform: translateZ(0px);
+    font-size: 16px;
+    line-height: 32px;
+    padding: 0px 0px 8px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    border-radius: 0px;
+    transition: box-shadow 0.2s ease 0s;
+    background: none;
+    box-shadow: #45555f 0px 1px;
+    height: 19px;
+  }
+  
+  input.textbox:focus {
+    box-shadow: #c1c6c8 0px 1px;
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation: expand 1.0s forwards;
+    animation: expand 1.0s forwards;
+  }
+  
+  input::placeholder {
+    color: #c1c6c8;
+  }
+  
+  @keyframes expand {
+    from {height: 19px;}
+    to {height: 30px;}
+  }
+  
+  #submit {
+    font-size: 28px;
+    border-radius: 4px;
+    border: 1px solid #5e9741;
+    background-color: #5e9741;
+    color: #fff;
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    left: 50%;
+    margin-right: -50%;
+  }
+  
+  #submit:hover {
+    border-color: #002630;
+    animation: shake-sides 0.4s forwards;
+      animation-duration: 0.4s;
+      animation-timing-function: ease;
+      animation-delay: 0s;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-fill-mode: forwards;
+      animation-play-state: running;
+      animation-name: shake-sides;
+  }
+  
+  .slidecontainer {
+    margin-top: 12px;
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  
+  .range {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #c1c6c8;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+  }
+  
+  .range:hover {
+    opacity: 1;
+  }
+  
+  .range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #7a9a01;
+    cursor: pointer;
+  }
+  
+  .range::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #7a9a01;
+    cursor: pointer;
+  }
+  
+  #rangeamount {
+    display: inline-block;
+    color: #333f48;
+  }
+  
+  #durationamount {
+    display: inline-block;
+    color: #333f48;
+  }
+  
+  #durationamount::after {
+    content: " year(s)";
+  }
