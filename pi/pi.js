@@ -67,7 +67,7 @@ var data = [
     }
   ];
   
-  var width = parseInt(d3.select("#pieChart").style("width"), 10);
+  var width = parseInt(d3.select("#piechart").style("width"), 10);
   var height = width;
   var radius = (Math.min(width, height) - 15) / 2;
   
@@ -84,7 +84,7 @@ var data = [
     return titles;
   };
   
-  let innerRadius = $("#pieChart")
+  let innerRadius = $("#piechart")
     .css("counter-reset")
     .split(" ")[1];
   
@@ -96,7 +96,7 @@ var data = [
   var color = d3.scaleOrdinal();
   color
     .domain(title(data))
-    .range(["#2BDFBB", "#DF2B4F", "#EE6617", "#FFBF00", "#423E6E", "#E24161"]);
+    .range(["#4a7729", "#5b7f95", "#1d252d", "#7a9a01", "#115e67", "#333f48"]);
   
   var arc = d3
     .arc()
@@ -212,12 +212,12 @@ var data = [
         var timeline = new TimelineLite();
   
         timeline
-          .to(".content-wrapper", 0.5, {
+          .to(".contentwrapper", 0.5, {
             rotationX: "90deg",
             opacity: 0,
             ease: Linear.easeNone,
             onComplete: () => {
-              $(".content-wrapper").hide();
+              $(".contentwrapper").hide();
             }
           })
           .to(".panel", 0.5, {
@@ -225,13 +225,13 @@ var data = [
             opacity: 0.05,
             ease: Linear.easeNone,
             onComplete: () => {
-              $("#segmentTitle").replaceWith(
-                `<h1 id="segmentTitle">${d.data.Title} - ${Math.round(
+              $("#segmenttitle").replaceWith(
+                `<h1 id="segmenttitle">${d.data.Title} - ${Math.round(
                   d.data.Amount / total * 1000
                 ) / 10}%</h1>`
               );
-              $("#segmentText").replaceWith(
-                '<p id="segmentText">' + d.data.Description + "</p>"
+              $("#segmenttext").replaceWith(
+                '<p id="segmenttext">' + d.data.Description + "</p>"
               );
               $(".panel").css(
                 "background-color",
@@ -246,10 +246,10 @@ var data = [
             opacity: 1,
             ease: Linear.easeNone,
             onComplete: () => {
-              $(".content-wrapper").show();
+              $(".contentwrapper").show();
             }
           })
-          .to(".content-wrapper", 0.5, {
+          .to(".contentwrapper", 0.5, {
             rotationX: "0deg",
             opacity: 1,
             ease: Linear.easeNone
@@ -258,7 +258,7 @@ var data = [
     });
   
   timeline
-    .from("#pieChart", 0.5, {
+    .from("#piechart", 0.5, {
       rotation: "-120deg",
       scale: 0.1,
       opacity: 0,
@@ -272,12 +272,12 @@ var data = [
         opacity: 0,
         ease: Linear.easeNone,
         onComplete: () => {
-          $(".content-wrapper").show();
+          $(".contentwrapper").show();
         }
       },
       "+=.55"
     )
-    .from(".content-wrapper", 0.75, {
+    .from(".contentwrapper", 0.75, {
       rotationX: "-90deg",
       opacity: 0,
       ease: Linear.easeNone
@@ -302,6 +302,4 @@ var data = [
     return rgb;
   }
   
-  document.querySelector("style").textContent +=
-    "@media(max-width:767px) {#pieChart { transform: rotate(90deg); transform-origin: 50% 50%; transition: 1s; max-width: 50%; } .text-container { width: 100%; min-height: 0; }} @media(min-width:768px) {#pieChart { transition: 1s;}}";
   
