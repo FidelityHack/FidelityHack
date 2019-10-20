@@ -62,11 +62,11 @@
                         </div>
                         <div id="pie-legend">
                             <table id="pie-legend-table">
-                                <tr><td id="colour-fund0"></td><td id="fund0" class="fundName"></td></tr>
-                                <tr><td id="colour-fund1"></td><td id="fund1" class="fundName"></td></tr>
-                                <tr><td id="colour-fund2"></td><td id="fund2" class="fundName"></td></tr>
-                                <tr><td id="colour-fund3"></td><td id="fund3" class="fundName"></td></tr>
-                                <tr><td id="colour-fund4"></td><td id="fund4" class="fundName"></td></tr>
+                                <tr><td id="colour-fund0"></td><td>20%</td><td id="fund0" class="fundName" onclick="handleSwitch(0)"></td></tr>
+                                <tr><td id="colour-fund1"></td><td>20%</td><td id="fund1" class="fundName" onclick="handleSwitch(1)"></td></tr>
+                                <tr><td id="colour-fund2"></td><td>20%</td><td id="fund2" class="fundName" onclick="handleSwitch(2)"></td></tr>
+                                <tr><td id="colour-fund3"></td><td>20%</td><td id="fund3" class="fundName" onclick="handleSwitch(3)"></td></tr>
+                                <tr><td id="colour-fund4"></td><td>20%</td><td id="fund4" class="fundName" onclick="handleSwitch(4)"></td></tr>
                             </table>
                         </div>
                     </div>
@@ -102,12 +102,26 @@
                     </form>
                     <input type="submit" name="submit" value="Submit →" id="submit">
                 </div>
-                <script src="/static/bar.js"></script>
-                <script src="/static/output.js"></script>
             </div>
             <div id="info-col">
-
+                <div id="info-close-bar">
+                    <button id="info-close-button" onclick="handleSwitchBack()">X</button>
+                </div>
+                <div id="info-content-wrapper">
+                    <div>
+                        <canvas id="line" height="400" width="400"></canvas>
+                    </div>
+                    <br>
+                    <div>Our analysis shows <span id="fund-name-blurb"></span> is one of the best performing funds at this risk level.</div> 
+                    <div>Compared to the average performance of the stocks available, the selected stock should perform better over the course of the next year.</div>
+                    <br>
+                    <div class="small-label">
+                        Select another fund to view more information.
+                    </div>
+                </div>
             </div>
         </div>
+        <script src="/static/bar.js"></script>
+        <script src="/static/output.js"></script>
     </body>
 </html>

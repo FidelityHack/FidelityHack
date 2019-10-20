@@ -73,16 +73,16 @@ var piChart = document.getElementById("pi");
 piChart.onclick = function(event) {
     var points = pi.getElementsAtEvent(event);
     if (points[0]) {
-        var chartData = points[0]['_chart'].config.data;
+        //var chartData = points[0]['_chart'].config.data;
         var index = points[0]['_index'];
-        var label = chartData.labels[index];
-        var value = chartData.datasets[0].data[index];
-        var output = "label:" + label.name + ", value:" + value;
-        console.log(output);
+        handleSwitch(index);
+        //var label = chartData.labels[index];
+        //var value = chartData.datasets[0].data[index];
+        //var output = "label:" + label.name + ", value:" + value;
+        //console.log(output);
     }
 };
 /////END PICHART LOGIC
-
 /////TIMEFRAME LOGIC
 let future_times = []
 for (let j = 0; j < 5; j++) {
@@ -125,7 +125,6 @@ for (let i = 0; i < 4; i++) {
     future_years[i].value = acc;
 }
 for (let i = 0; i < 4; i++) {
-    console.log('future-' + i.toString());
     dset('future-' + i.toString(), '$ ' + future_years[i].value.toFixed(0).replace(/\d(?=(\d{3})+\.)/g, '$&,'));
     dset('y-fut-' + i.toString(), future_years[i].time);
 }
@@ -170,4 +169,132 @@ for (let i = 0; i < 3; i++) {
     dset('historical-' + i.toString(), '$ ' + historic_years[i].value.toFixed(0).replace(/\d(?=(\d{3})+\.)/g, '$&,'));
     dset('year-h-' + i.toString(), historic_years[i].time);
 }
+
+let average_oneyearp = 11.667 / 1200.0 + 1;
+let average_growth = [];
+average_growth.push(parseInt(gd['amount']));
+for (let i = 1; i < 12; i++) {
+    average_growth.push(Math.round(average_growth[i - 1] * average_oneyearp));
+}
+let funds_growth_year = [];
+for (let i = 0; i < 5; i++) {
+    let growths = [];
+    let rate = flaskFundsList[i].oneyearp / 1200.0 + 1;
+    growths.push((parseInt(gd['amount'])));
+    for (let j = 1; j < 12; j++) {
+        let val = Math.round(growths[j - 1] * rate);
+        growths.push(val);
+    }
+    funds_growth_year.push(growths);
+}
+
 /////END TIMEFRAME LOGIC
+
+/////START INFO TAB SWITCHING LOGIC
+var isSwitched = false;
+function handleSwitch(index) {
+    dset('fund-name-blurb', flaskFundsList[index].name);
+    updateLineGraph(index);
+    if (!isSwitched) {
+        $("#input-col").animate({
+            'right': '+=18%'
+        }, 375);
+        $('#main-col').animate({
+            'right': '+=18%'
+        }, 375);
+        setTimeout(() => $('#info-col').fadeIn(375), 200);
+    }
+    isSwitched = true;
+}
+function handleSwitchBack() {
+    if (!isSwitched)
+        return;
+    isSwitched = false;
+    $("#main-col").animate({
+        'right': '-=18%'
+    }, 375);
+    $("#input-col").animate({
+        'right': '-=18%'
+    }, 375);
+    $('#info-col').fadeOut(100);
+}
+//?/?/?????//// END INFO TAB SWITCHING LOGIC
+
+
+
+/////START LINECHART LOGIC
+
+
+let updateLineGraph = (idx) => {
+    var linectx=document.getElementById("line").getContext("2d");
+    var linectx=new Chart (linectx, {
+        type: "line",
+        data: {
+            labels: [
+                "January",
+                "February", 
+                "March", 
+                "April", 
+                "May", 
+                "June", 
+                "July", 
+                "August", 
+                "September",
+                "October",
+                "November",
+                "December"
+                ],
+            datasets: [
+                {
+                    label: flaskFundsList[idx].name, //enter stock label
+                    pointBorderColor: pie_colours[idx],
+                    borderColor: pie_colours[idx],
+                    fill: false,
+                    data: funds_growth_year[idx] //enter stock data
+                },
+                {
+                    label: "Average Performance",
+                    pointBorderColor: "#7c878e",
+                    backgroundColor: "rgba(124, 135, 142, 0.2)",
+                    borderColor: "#7c878e",
+                    fill: true,
+                    data: average_growth //enter average data
+                }
+            ]
+        },
+        options: {
+            title: {
+                display: true,
+                text: "Performance",
+                fontSize: '19',
+                fontFamily: 'Verdana, Geneva, sans-serif'
+            },
+            tooltips: {
+                mode: "index", 
+                intersect: false
+            },
+            hover: {
+                mode: "nearest",
+                intersect: true
+            },
+            scales: {
+                xAxes: [{
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        labelString: "Month"
+                    }
+                }],
+                yAxes: [{
+                    display: true,
+                    scaleLabel: {
+                        display: true,
+                        labelString: "Value"
+                    }
+                }]
+            },
+            responsive: false
+        }
+    });
+}
+/////END LINECHART LOGIC
