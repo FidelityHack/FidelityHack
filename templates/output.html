@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="/static/output.css"/>
+        <script src='https://www.webdesignerdepot.com/cdn-origin/uploads7/easily-create-stunning-animated-charts-with-chart-js/Chart.min.js'></script>
+        <script src="https://www.webdesignerdepot.com/cdn-origin/uploads7/easily-create-stunning-animated-charts-with-chart-js/Chart.min.js"></script>
+		<script src="/static/Chart.min.js"></script>
+		<script src="https://www.chartjs.org/samples/latest/utils.js"></script>
+		<script src="https://www.chartjs.org/dist/2.8.0/Chart.min.js"></script>
+		<link rel = "stylesheet" type = "text/css" href = "/static/Chart.min.css"/>
+        <script>
+            var inputData = '{{ flaskInsert|tojson }}';
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="input-col">
+                <div class="small-label">Age:</div>
+                <div class="small-info" id="age-echo">18-30</div>
+                <div class="small-label">Duration:</div>
+                <div class="small-info" id="time-echo">5 Years</div>
+                <div class="small-label">Amount:</div>
+                <div class="small-info" id="amount-echo">$10,000</div>
+                <div class="small-label">Regular Contributions:</div>
+                <div class="small-info" id="regular-echo">$100</div>
+                <div class="small-label">Frequency:</div>
+                <div class="small-info" id="frequency-echo">Monthly</div>
+                <div class="small-label">Risk level:</div>
+                <div class="small-info" id="risk-echo">5</div>
+            </div>
+            <div id="main-col">
+                <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+                <div class="section">
+                    <div class="statement">Here's what we can do for you.</div>
+                    <table>
+                        <tr>
+                            <td id="future-now">$10,000</td>
+                            <td id="future-5">$20,000</td>
+                            <td id="future-10">$30,000</td>
+                            <td id="future-15">$40,000</td>
+                        </tr>
+                        <tr>
+                            <td>Present</td>
+                            <td>5 years</td>
+                            <td>10 years</td>
+                            <td>15 years</td>
+                        </tr>
+                    </table>
+                    <div class="chart">
+                        <div id="future-bar" class="bar"></div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="statement">Here's how we'll do it.</div>
+                    <div>
+                        <canvas id = "pi" width = "300" height = "300"></canvas>
+                        <script>
+                            var ctx = document.getElementById("pi").getContext("2d");
+                
+                            var pi = new Chart(ctx, {
+                                type:'pie',
+                                data: {
+                                    datasets: [{
+                                        data: [10, 10, 20, 30, 30],
+                                        backgroundColor: [
+                                            "#4a7729",
+                                            "#5b7f95",
+                                            "#1d252d",
+                                            "#7a9a01",
+                                            "#115e67"
+                                        ],
+                                    }],
+                                    labels: [
+                                            "stock1",
+                                            "stock2",
+                                            "stock3",
+                                            "stock4",
+                                            "stock5"
+                                    ],
+                                },
+                                options: {
+                                    segmentShowStroke : false,
+                                    animateScale : true,
+                                    responsive: false,
+                                    legend: {
+                                        display: false,
+                                    },
+                                }
+                            });
+                
+                            var piChart = document.getElementById("pi");
+                            piChart.onclick = function(event) {
+                                var points = pi.getElementsAtEvent(event);
+                                if (points[0]) {
+                                    var chartData = points[0]['_chart'].config.data;
+                                    var index = points[0]['_index'];
+                                    var label = chartData.labels[index];
+                                    var value = chartData.datasets[0].data[index];
+                                    var output = "label:" + label + ", value:" + value;
+                                        
+                                    console.log(output);
+                                    alert(output);
+                                }
+                            };
+                
+                        </script>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="blurb">This is how things would've turned out if you'd invested <span id="timeframe">5</span> years ago.</div>
+                    <table> 
+                        <tr>    
+                            <td id="historical-15">$10,000</td>
+                            <td id="historical-10">$20,000</td>
+                            <td id="historical-5">$30,000</td>
+                            <td id="historical-now">$40,000</td>
+                        </tr>
+                        <tr>
+                            <td>15 years ago</td>
+                            <td>10 years ago</td>
+                            <td>5 years ago</td>
+                            <td>Present</td>
+                        </tr>
+                    </table>
+                    <div class="chart">
+                        <div id="historical-bar" class="bar"></div>
+                    </div>
+                </div>
+                <div class="section">
+                    <div id="button-container">
+                        <div id="startover-blurb">Don't like your results? Have another go.</div>
+                        <button id="restart" onclick='window.location.href = "http://127.0.0.1:5000/getForm";'>Start Over</button>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="blurb">Feeling ready to get started? We'll have an advisor contact you.</div>
+                    <form>
+                        <input type="text" class="textbox" name="email_bar" placeholder="Leave your email here"/>
+                    </form>
+                    <input type="submit" name="submit" value="Submit →" id="submit">
+                </div>
+                <script src="/static/bar.js"></script>
+                <script src="/static/output.js"></script>
+            </div>
+            <div id="info-col">
+
+            </div>
+        </div>
+    </body>
+</html>

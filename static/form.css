@@ -2,6 +2,7 @@ body, html {
     background: transparent;
     font-family: Verdana, Geneva, sans-serif;
     width: 700px;
+    margin: auto;
   }
   
   label {
@@ -55,12 +56,12 @@ body, html {
     border: 1px solid #5e9741;
     background-color: #5e9741;
     color: #fff;
-    margin: 10px;
     padding: 20px;
     cursor: pointer;
     text-align: center;
     left: 50%;
-    margin-right: -50%;
+    align-items: center;
+    margin-left: 40%;
   }
   
   #submit:hover {

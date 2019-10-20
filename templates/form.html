@@ -5,7 +5,7 @@
   </head> 
   <body>
     <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
-    <form>
+    <form action="http://127.0.0.1:5000/getOutput" method="POST">
       <div class="portion">
         <label>Age:</label>
         <br>
@@ -48,19 +48,10 @@
       </div>
       <br>
       <div class="portion">
-        <label>Atitude for Risk:</label>
-        <text id="rangeamount"></text>
-        <br>
-        <div class="slidecontainer">
-          <input type="range" class="range" name="risk" tabIndex="5" min="0" max="10" value="5" step="1" id="range">
-        </div>
-      </div>
-      <br>
-      <div class="portion">
         <label>Frequency of Investment:</label>
         <br>
         <div>
-        <input list="frequencyamount" type="text" class="textbox" name="frequency" tabIndex="6" id="frequency">
+        <input list="frequencyamount" type="text" class="textbox" name="frequency" tabIndex="5" id="frequency">
         <datalist name='frequencyamount' id="frequencyamount" autocomplete="on">
           <option value="Daily"></option>
           <option value="Weekly"></option>
@@ -73,7 +64,17 @@
         </div>
       </div>
       <br>
-      <input type="submit" name="submit" value="Submit →" id="submit">
+      <div class="portion">
+        <label>Aptitude for Risk:</label>
+        <text id="rangeamount"></text>
+        <br>
+        <div class="slidecontainer">
+          <input type="range" class="range" name="risk" tabIndex="6" min="0" max="10" value="5" step="1" id="range">
+        </div>
+      </div>
+      <br>
+      <br>
+      <input type="submit" name="http://127.0.0.1:5000/getOutput" value="Submit →" id="submit">
     </form>
     <script src="/static/form.js"></script>
   </body>
