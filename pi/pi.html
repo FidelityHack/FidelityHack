@@ -53,7 +53,8 @@
 					var index = points[0]['_index'];
 					var label = chartData.labels[index];
 					var value = chartData.datasets[0].data[index];
-					var output = "label:" + label + ", value:" + value;
+					var color = chartData.datasets[o].backgroundColor[index];
+					var output = "label:" + label + ", value:" + value + ", color:" + color;
 						
 					console.log(output);
 					alert(output);
