@@ -50,6 +50,12 @@ body, html {
     to {height: 30px;}
   }
   
+  .statement {
+    font-size: 24px;
+    color: #292d30;
+    margin-bottom: 5px;
+  }
+  
   #submit {
     font-size: 28px;
     border-radius: 4px;

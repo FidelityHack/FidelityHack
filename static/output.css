@@ -14,7 +14,15 @@ body, html {
   #input-col {
     float: left;
     width: 18%;
-
+    padding-top: 130px;
+  }
+  #info-wrapper {
+    border: 2px solid #45555f;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    width: 75%;
+    margin: auto;
   }
   #main-col {
     float: left;
@@ -24,6 +32,10 @@ body, html {
     float: right;
     width: 34%;
     padding-left: 5px;
+  }
+  #pie-wrapper {
+    width: 100%;
+    overflow: hidden;
   }
 
   .statement {
@@ -69,6 +81,7 @@ body, html {
   .small-info {
     font-size: 14px;
     color: #a5a7a7;
+    margin-bottom: 5px;
   }
 
   table {

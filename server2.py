@@ -1,6 +1,7 @@
 # Import the Flask package
 from flask import Flask, jsonify, make_response, render_template, request
 from flask_cors import CORS
+from Strategy import get_funds
 # Initialize Flask
 app = Flask(__name__)
 CORS(app)
@@ -24,8 +25,9 @@ def getOutput():
         'frequency': request.form['frequency'],
         'risk': request.form['risk']
     }
+    fundsList = get_funds(data['time'], data['risk'])
     print(data)
-    r = make_response(render_template('output.html', flaskInsert=data))
+    r = make_response(render_template('output.html', flaskInsert=data, flaskFundsList=fundsList))
     r.headers['Access-Control-Allow-Origin'] = '*'
     return r
 # Run Flask if the __name__ variable is equal to __main__
