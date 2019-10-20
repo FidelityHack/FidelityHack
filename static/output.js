@@ -11,6 +11,8 @@ dset('regular-echo', '$' + parseInt(gd['regular']).toFixed(2).replace(/\d(?=(\d{
 dset('frequency-echo', gd['frequency']);
 dset('risk-echo', "Level " + gd['risk']);
 
+dset('timeframe', gd['time']);
+
 let pie_colours = [
     "#4a7729",
     "#5b7f95",
@@ -37,7 +39,7 @@ var pi = new Chart(ctx, {
     type:'pie',
     data: {
         datasets: [{
-            data: [10, 10, 20, 30, 30],
+            data: [20, 20, 20, 20, 20],
             backgroundColor: [
                 "#4a7729",
                 "#5b7f95",
@@ -51,7 +53,7 @@ var pi = new Chart(ctx, {
             flaskFundsList[1],
             flaskFundsList[2],
             flaskFundsList[3],
-            flaskFundsList[4]
+            flaskFundsList[4],
         ],
     },
     options: {
@@ -61,6 +63,9 @@ var pi = new Chart(ctx, {
         legend: {
             display: false,
         },
+        tooltips: {
+            enabled: false,
+        }
     }
 });
 
@@ -72,10 +77,97 @@ piChart.onclick = function(event) {
         var index = points[0]['_index'];
         var label = chartData.labels[index];
         var value = chartData.datasets[0].data[index];
-        var output = "label:" + label + ", value:" + value;
-            
+        var output = "label:" + label.name + ", value:" + value;
         console.log(output);
-        alert(output);
     }
 };
 /////END PICHART LOGIC
+
+/////TIMEFRAME LOGIC
+let future_times = []
+for (let j = 0; j < 5; j++) {
+    tempTimes = [];
+    tempTimes.push({
+        time: 'Present',
+        value: flaskFundsList[j].returns[0]
+    });
+    for (let i = 0; i < 2; i++) {
+        let numYears = Math.round((i + 1) * 0.3333333 * gd['time']);
+        if (numYears == 1) {
+            tempTimes.push({
+                time: '1 Year',
+                value: flaskFundsList[j]['returns'][1]
+            });
+        } else {
+            tempTimes.push({
+                time: numYears.toString() + ' Years',
+                value: flaskFundsList[j]['returns'][numYears],
+            });
+        }
+    }
+    tempTimes.push({
+        time: gd['time'].toString() + ' Years',
+        value: flaskFundsList[j]['returns'][gd['time']],
+    })
+    future_times.push(tempTimes);
+}
+let future_years = [
+    {'time': future_times[0][0].time, value: 0},
+    {'time': future_times[0][1].time, value: 0},
+    {'time': future_times[0][2].time, value: 0},
+    {'time': future_times[0][3].time, value: 0}
+];
+for (let i = 0; i < 4; i++) {
+    let acc = 0;
+    for (let j = 0; j < 5; j++) {
+        acc += Math.round(0.2 * future_times[j][i].value);
+    }
+    future_years[i].value = acc;
+}
+for (let i = 0; i < 4; i++) {
+    console.log('future-' + i.toString());
+    dset('future-' + i.toString(), '$ ' + future_years[i].value.toFixed(0).replace(/\d(?=(\d{3})+\.)/g, '$&,'));
+    dset('y-fut-' + i.toString(), future_years[i].time);
+}
+let historic_times = []
+for (let j = 0; j < 5; j++) {
+    tempTimes = [];
+    tempTimes.push({
+        time: gd['time'] + " Years ago",
+        value: flaskFundsList[j].returns[0]
+    })
+    let numYears = Math.round(0.5 * gd['time']);
+    if (numYears == 1) {
+        tempTimes.push({
+            time: '1 Year',
+            value: Math.round(gd['amount'] * (flaskFundsList[j].annualized_return / 100.0 + 1))
+        });
+    } else {
+        tempTimes.push({
+            time: numYears.toString() + " Years ago",
+            value: Math.round(gd['amount'] * ((flaskFundsList[j].annualized_return / 100.0 + 1) ** numYears))
+        });
+    }
+    tempTimes.push({
+        time: 'Present',
+        value: Math.round(gd['amount'] * ((flaskFundsList[j].annualized_return / 100.0 + 1) ** gd['time']))
+    })
+    historic_times.push(tempTimes);
+}
+let historic_years = [
+    {'time': historic_times[0][0].time, value: 0},
+    {'time': historic_times[0][1].time, value: 0},
+    {'time': historic_times[0][2].time, value: 0}
+];
+for (let i = 0; i < 3; i++) {
+    let acc = 0;
+    for (let j = 0; j < 5; j++) {
+        acc += Math.round(0.2 * historic_times[j][i].value);
+    }
+    historic_years[i].value = acc;
+}
+for (let i = 0; i < 3; i++) {
+    dset('historical-' + i.toString(), '$ ' + historic_years[i].value.toFixed(0).replace(/\d(?=(\d{3})+\.)/g, '$&,'));
+    dset('year-h-' + i.toString(), historic_years[i].time);
+}
+/////END TIMEFRAME LOGIC

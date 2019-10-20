@@ -1,4 +1,5 @@
 from math import ceil
+import math
 from FidelityFunds import funds
 from FutureReturns import future_return
 
@@ -59,5 +60,13 @@ def get_funds(time, risk, recurring, amount):
             'annualized_return': newlist[i].annualized_return,
             'returns': future_return(int(recurring), int(time), int(amount), newlist[i])
         }
+        if (math.isnan(tempFund['oneyearp'])):
+            tempFund['oneyearp'] = 0
+        if (math.isnan(tempFund['threeyearp'])):
+            tempFund['threeyearp'] = 0
+        if (math.isnan(tempFund['fiveyearp'])):
+            tempFund['fiveyearp'] = 0
+        if (math.isnan(tempFund['tenyearp'])):
+            tempFund['tenyearp'] = 0
         retList.append(tempFund)
     return retList
