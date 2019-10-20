@@ -1,5 +1,6 @@
 from math import ceil
 from fidelityfunds import funds
+from FutureReturns import future_return
 
 
 
@@ -32,19 +33,27 @@ def select_fund(funds, profile):
         risk = "High-to-Medium"
     else:
         risk = "High"
+    print(risk)
     i = 0;
     for fund in funds:
         if fund.risk_factor == risk:
             selected.append(fund)
         i = i + 1
+    print(selected)
     return selected
 
 
 funds = funds()
 profile = risk_factor_analysis(20, 8)
 selected = select_fund(funds, profile)
-for i in range(5):
-    print(selected[i].name)
+selected.sort(key=lambda x: x.oneyearp, reverse =True)
+newlist = sorted(selected, key=lambda x: x.oneyearp, reverse = True)
+
+# selected_top_5 = selected.sort(selected.oneyearp)
+# print(selected_top_5)
+# for i in range(5):
+#     print(newlist[i].name)
+#     print(newlist[i].oneyearp)
 
 
 
