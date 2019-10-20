@@ -1,8 +1,6 @@
 from math import ceil
-from fidelityfunds import funds
+from FidelityFunds import funds
 from FutureReturns import future_return
-
-
 
 def risk_factor_analysis(time, aptitude_for_risk):
     profile = 5
@@ -33,28 +31,33 @@ def select_fund(funds, profile):
         risk = "High-to-Medium"
     else:
         risk = "High"
-    print(risk)
+    #print(risk)
     i = 0;
     for fund in funds:
         if fund.risk_factor == risk:
             selected.append(fund)
         i = i + 1
-    print(selected)
+    #print(selected)
     return selected
 
-
-funds = funds()
-profile = risk_factor_analysis(20, 8)
-selected = select_fund(funds, profile)
-selected.sort(key=lambda x: x.oneyearp, reverse =True)
-newlist = sorted(selected, key=lambda x: x.oneyearp, reverse = True)
-
-# selected_top_5 = selected.sort(selected.oneyearp)
-# print(selected_top_5)
-# for i in range(5):
-#     print(newlist[i].name)
-#     print(newlist[i].oneyearp)
-
-
-
-
+def get_funds(time, risk, recurring, amount):
+    timeInt = int(time)
+    riskInt = int(risk)
+    theFunds = funds()
+    profile = risk_factor_analysis(timeInt, riskInt)
+    selected = select_fund(theFunds, profile)
+    selected.sort(key=lambda x: x.oneyearp, reverse =True)
+    newlist = sorted(selected, key=lambda x: x.oneyearp, reverse = True)
+    retList = []
+    for i in range(5):
+        tempFund = {
+            'name': newlist[i].name,
+            'oneyearp': newlist[i].oneyearp,
+            'threeyearp': newlist[i].threeyearp,
+            'fiveyearp': newlist[i].fiveyearp,
+            'tenyearp': newlist[i].tenyearp,
+            'annualized_return': newlist[i].annualized_return,
+            'returns': future_return(int(recurring), int(time), int(amount), newlist[i])
+        }
+        retList.append(tempFund)
+    return retList

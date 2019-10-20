@@ -1,5 +1,5 @@
 from fund import Fund
-from fidelityfunds import funds
+from FidelityFunds import funds
 from math import ceil
 
 
@@ -14,7 +14,7 @@ def future_return(amount, duration, starter_amount,fund):
         # print(current_value)
         list_of_years.append(ceil(current_value))
     # print(list_of_years)
-    print(list_of_years)
+    #print(list_of_years)
     return list_of_years
 
 

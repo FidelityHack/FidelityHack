@@ -1,5 +1,6 @@
 # Import the Flask package
 from flask import Flask, jsonify, make_response, render_template, request
+import json
 from flask_cors import CORS
 from Strategy import get_funds
 # Initialize Flask
@@ -25,8 +26,9 @@ def getOutput():
         'frequency': request.form['frequency'],
         'risk': request.form['risk']
     }
-    fundsList = get_funds(data['time'], data['risk'])
+    fundsList = get_funds(data['time'], data['risk'], data['regular'], data['amount'])
     print(data)
+    print(len(fundsList))
     r = make_response(render_template('output.html', flaskInsert=data, flaskFundsList=fundsList))
     r.headers['Access-Control-Allow-Origin'] = '*'
     return r
