@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="https://www.webdesignerdepot.com/cdn-origin/uploads7/easily-create-stunning-animated-charts-with-chart-js/Chart.min.js"></script>
 		<script src="Chart.min.js"></script>
-		<script src="Chart.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+		<script src="https://www.chartjs.org/samples/latest/utils.js"></script>
+		<script src="https://www.chartjs.org/dist/2.8.0/Chart.min.js"></script>
+		<link rel = "stylesheet" type = "text/css" href = "Chart.min.css"/>
+		<style>
+			canvas:hover {
+				cursor:pointer;
+			}
+		</style>
 	</head>
 	<body>
-			<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 		<canvas id = "pi" width = "500" height = "500"></canvas>
 		<script>
-			var pi = document.getElementById("pi").getContext("2d");
+			var ctx = document.getElementById("pi").getContext("2d");
 
-			var pieData = [
-				{
-					value : 10,
-					color : "#4a7729"
+			var pi = new Chart(ctx, {
+				type:'pie',
+				data: {
+					datasets: [{
+						data: [10, 10, 20, 30, 30],
+						backgroundColor: [
+							"#4a7729",
+							"#5b7f95",
+							"#1d252d",
+							"#7a9a01",
+							"#115e67"
+						],
+					}],
+					labels: [
+							"stock1",
+							"stock2",
+							"stock3",
+							"stock4",
+							"stock5"
+					],
 				},
-				{
-					value : 20,
-					color : "#5b7f95"
-				},
-				{
-					value : 30,
-					color : "#1d252d"
-				},
-				{
-					value : 20,
-					color : "#7a9a01"
-				},
-				{
-					value: 20,
-					color: "#115e67"
+				options: {
+					segmentShowStroke : false,
+					animateScale : true,
+					responsive: true,
 				}
-			];
-			var pieOptions = {
-				segmentShowStroke : false,
-				animateScale : true
-			}
-			new Chart(pi).Pie(pieData, pieOptions);
+			});
 		</script>
 	</body>
 </html>
