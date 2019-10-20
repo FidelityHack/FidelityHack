@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://www.chartjs.org/dist/2.8.0/Chart.min.js"></script>
+        <script src="https://www.chartjs.org/samples/latest/utils.js"></script>
+        <script src="Chart.min.js"></script>
+        <link rel = "stylesheet" type = "text/css" href = "Chart.min.css"/>
+    </head>
+    <body>
+        <canvas id="line" height="500" width="500"></canvas>
+        <script>
+            var ctx=document.getElementById("line").getContext("2d");
+
+            var line=new Chart (ctx, {
+                type: "line",
+                data: {
+                    labels: [
+                        "January",
+                        "February", 
+                        "March", 
+                        "April", 
+                        "May", 
+                        "June", 
+                        "July", 
+                        "August", 
+                        "September",
+                        "October",
+                        "November",
+                        "December"
+                        ],
+                    datasets: [
+                        {
+                            label: "previous clicked here", //enter stock label
+                            fillColor: "#000000", //enter stock color
+                            strokeColor: "#000000", //enter stock color
+                            pointColor: "#ffffff",
+                            pointStrokeColor: "#000000", //enter stock color
+                            data: [1,2,3,4,5,6,7,8,9,10,11,12] //enter stock data
+                        },
+                        {
+                            labels: "Average Performance",
+                            fillColor: "#7c878e",
+                            strokeColor: "#7c878e",
+                            pointColor: "#ffffff",
+                            pointStrokeColor: "#7c878e",
+                            data: [12,11,10,9,8,7,6,5,4,3,2,1] //enter average data
+                        }
+                    ]
+                },
+                options: {
+                    title: {
+                        display: true,
+                        text: "Performancee"
+                    },
+                    tooltips: {
+                        mode: "index", 
+                        intersect: false
+                    },
+                    hover: {
+                        mode: "nearest",
+                        intersect: true
+                    },
+                    scales: {
+                        xAxes: [{
+                            display: true,
+                            scaleLabel: {
+                                display: true,
+                                labelString: "Month"
+                            }
+                        }],
+                        yAxes: [{
+                            display: true,
+                            scaleLabel: {
+                                display: true,
+                                labelString: "Value"
+                            }
+                        }]
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>
