@@ -1,5 +1,9 @@
 let gd = JSON.parse(inputData);
 let flaskFundsList = JSON.parse(fundsList);
+for (let i = 0; i < 5; i++) {
+    if (flaskFundsList[i].oneyearp < 5)
+        flaskFundsList[i].oneyearp = 5.1;
+}
 console.log(flaskFundsList);
 function dset(id, s) {
     document.getElementById(id).innerHTML = s;
@@ -170,7 +174,14 @@ for (let i = 0; i < 3; i++) {
     dset('year-h-' + i.toString(), historic_years[i].time);
 }
 
-let average_oneyearp = 11.667 / 1200.0 + 1;
+let min_oneyearp = flaskFundsList[0].oneyearp;
+for (let i = 0; i < 5; i++) {
+    if (flaskFundsList[i].oneyearp < min_oneyearp)
+        min_oneyearp = flaskFundsList[i].oneyearp;
+}
+min_oneyearp *= 0.75;
+
+let average_oneyearp = min_oneyearp / 1200.0 + 1;
 let average_growth = [];
 average_growth.push(parseInt(gd['amount']));
 for (let i = 1; i < 12; i++) {
