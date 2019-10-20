@@ -3,20 +3,20 @@ Canadian Disciplined EquitySr. B (ISC 224),43.4923,-0.1456,0.33,9.33,6.1,5.2,6.9
 Canadian Disciplined Equity ClassSr. B (ISC 296),33.4751,-0.1122,0.33,9.32,6.08,5.19,6.89,Medium,7.92
 Canadian Growth CompanySr. B (ISC 265),64.6111,-1.2973,1.97,-3.19,9.02,11.11,12.95,Medium,10.98
 Canadian Growth Company ClassSr. B (ISC 254),48.5219,-0.9751,1.97,-3.21,9,11.11,12.89,Medium,9.49
-Canadian High Dividend Index ETFSr. B (ISC 4086),10.2636,-0.0516,0.5,7.31,–,–,–,Medium,6.37
-Canadian High Dividend Index ETFTicker FCCD,26.0882,0.0036,0.01,8.97,–,–,–,Medium,8.54
-Canadian High Quality Index ETFSr. B (ISC 6533),10.4516,0.0865,0.83,–,–,–,–,Medium,–
-Canadian High Quality Index ETFTicker FCCQ,26.2505,-0.0719,0.27,–,–,–,–,Medium,–
+Canadian High Dividend Index ETFSr. B (ISC 4086),10.2636,-0.0516,0.5,7.31,0,0,0,Medium,6.37
+Canadian High Dividend Index ETFTicker FCCD,26.0882,0.0036,0.01,8.97,0,0,0,Medium,8.54
+Canadian High Quality Index ETFSr. B (ISC 6533),10.4516,0.0865,0.83,0,0,0,0,Medium,0
+Canadian High Quality Index ETFTicker FCCQ,26.2505,-0.0719,0.27,0,0,0,0,Medium,0
 Canadian Large CapSr. B (ISC 231),44.296,-0.0777,0.18,8.65,3.13,4.91,10.29,Medium,9.03
-Canadian Large Cap ClassSr. B (ISC 468),19.9126,-0.035,0.18,8.63,3.11,4.9,–,Medium,9.78
-Canadian Low Volatility Index ETFSr. B (ISC 6518),11.0846,0.0075,0.07,–,–,–,–,Medium,–
-Canadian Low Volatility Index ETFTicker FCCL,28.03,-0.0469,0.17,–,–,–,–,Medium,–
+Canadian Large Cap ClassSr. B (ISC 468),19.9126,-0.035,0.18,8.63,3.11,4.9,0,Medium,9.78
+Canadian Low Volatility Index ETFSr. B (ISC 6518),11.0846,0.0075,0.07,0,0,0,0,Medium,0
+Canadian Low Volatility Index ETFTicker FCCL,28.03,-0.0469,0.17,0,0,0,0,Medium,0
 Canadian OpportunitiesSr. B (ISC 215),23.5263,-0.0742,0.31,13.66,6.88,7.35,8.71,Medium,8.05
 Canadian Opportunities ClassSr. B (ISC 276),30.8391,-0.0974,0.31,13.65,6.87,7.35,8.67,Medium,8.42
 DividendSr. B (ISC 221),18.4774,0.0054,0.03,9.49,4.64,5.28,7.09,Medium,7.41
 Dividend ClassSr. B (ISC 1220),14.8291,0.0044,0.03,9.47,4.62,5.27,7.07,Medium,5.44
 Dividend PlusSr. B (ISC 223),19.1376,0.0033,0.02,13.16,4.33,5.94,9.06,Medium,9.31
-Dividend Plus ClassSr. B (ISC 1432),13.7866,0.0024,0.02,13.14,4.3,5.91,–,Medium,6.51
+Dividend Plus ClassSr. B (ISC 1432),13.7866,0.0024,0.02,13.14,4.3,5.91,0,Medium,6.51
 Greater CanadaSr. B (ISC 1246),13.349,-0.0536,0.4,14.45,6.94,8.9,9.2,Medium,6.18
 Greater Canada ClassSr. B (ISC 1276),18.591,-0.0746,0.4,14.49,6.98,8.92,9.23,Medium,6.19
 Special SituationsSr. B (ISC 1298),29.9886,-0.7129,2.32,-3.47,9.03,10.67,12.72,Medium,12.7
@@ -25,53 +25,53 @@ True NorthSr. B (ISC 225),45.2689,-0.0865,0.19,7.95,5.42,5.2,7.11,Medium,8.45
 True North ClassSr. B (ISC 286),30.487,-0.0583,0.19,7.93,5.41,5.19,7.07,Medium,7.41
 American Disciplined EquitySr. B (ISC 283),21.1282,-0.1579,0.74,4.03,9.82,10.3,11.75,High,5.79
 American Disciplined Equity ClassSr. B (ISC 272),20.9802,-0.157,0.74,4.01,9.79,10.28,11.68,High,5.63
-American Disciplined Equity Currency Neutral ClassSr. B (ISC 1369),20.9383,-0.1222,0.58,0,8.29,5.88,–,High,8.78
+American Disciplined Equity Currency Neutral ClassSr. B (ISC 1369),20.9383,-0.1222,0.58,0,8.29,5.88,0,High,8.78
 American EquitySr. B (ISC 264),23.1719,-0.0915,0.39,12.8,9.42,11.72,11.95,High,5.83
-American Equity ClassSr. B (ISC 2312),19.7212,-0.0779,0.39,12.79,9.41,11.74,–,High,12.79
-American Equity Currency Neutral ClassSr. B (ISC 2637),15.1061,-0.0352,0.23,8.58,8,7.5,–,High,8.12
-American Equity Systematic Currency HedgedSr. B (ISC 6794),10.1728,-0.0331,0.32,–,–,–,–,High,–
-Event Driven OpportunitiesSr. B (ISC 2798),10.2794,-0.0647,0.63,-23.29,-0.19,–,–,High,4.44
-Event Driven Opportunities ClassSr. B (ISC 2749),12.1643,-0.0766,0.63,-23.33,-0.24,–,–,High,4.49
-Event Driven Opportunities Currency Neutral ClassSr. B (ISC 6085),7.611,-0.0439,0.57,-25.21,–,–,–,High,-12.59
-Insights ClassSr. B (ISC 5491),14.1279,-0.1862,1.3,-1.13,–,–,–,High,14.08
-Insights Currency Neutral ClassSr. B (ISC 5529),13.7013,-0.1585,1.14,-4.87,–,–,–,High,12.43
-Insights Systematic Currency HedgedSr. B (ISC 6882),9.8731,-0.1232,1.23,–,–,–,–,High,–
+American Equity ClassSr. B (ISC 2312),19.7212,-0.0779,0.39,12.79,9.41,11.74,0,High,12.79
+American Equity Currency Neutral ClassSr. B (ISC 2637),15.1061,-0.0352,0.23,8.58,8,7.5,0,High,8.12
+American Equity Systematic Currency HedgedSr. B (ISC 6794),10.1728,-0.0331,0.32,0,0,0,0,High,0
+Event Driven OpportunitiesSr. B (ISC 2798),10.2794,-0.0647,0.63,-23.29,-0.19,0,0,High,4.44
+Event Driven Opportunities ClassSr. B (ISC 2749),12.1643,-0.0766,0.63,-23.33,-0.24,0,0,High,4.49
+Event Driven Opportunities Currency Neutral ClassSr. B (ISC 6085),7.611,-0.0439,0.57,-25.21,0,0,0,High,-12.59
+Insights ClassSr. B (ISC 5491),14.1279,-0.1862,1.3,-1.13,0,0,0,High,14.08
+Insights Currency Neutral ClassSr. B (ISC 5529),13.7013,-0.1585,1.14,-4.87,0,0,0,High,12.43
+Insights Systematic Currency HedgedSr. B (ISC 6882),9.8731,-0.1232,1.23,0,0,0,0,High,0
 Small Cap AmericaSr. B (ISC 261),73.6136,-0.4356,0.59,4.17,7.99,11.2,15.61,High,10.5
 Small Cap America ClassSr. B (ISC 274),38.7926,-0.2298,0.59,4.16,7.98,11.19,15.51,High,7.86
-Small Cap America Currency Neutral ClassSr. B (ISC 2655),14.5818,-0.0627,0.43,0.23,6.57,6.85,–,High,7.29
-Small Cap America Systematic Currency HedgedSr. B (ISC 6814),9.6288,-0.0502,0.52,–,–,–,–,High,–
-U.S. All CapSr. B (ISC 1497),19.2686,-0.0513,0.27,0.75,8.2,9.08,–,High,12.96
-U.S. All Cap ClassSr. B (ISC 1600),20.1832,-0.0538,0.27,0.71,8.17,9.06,–,High,12.96
-U.S. All Cap Currency Neutral ClassSr. B (ISC 2608),12.9489,-0.0173,0.13,-2.56,6.99,5.03,–,High,4.95
-U.S. Div for Rising Rates Curr Neutral Index ETFTicker FCRH,24.6455,0.0784,0.32,0.7,–,–,–,High,0.72
-U.S. DividendSr. B (ISC 966),19.8025,-0.0691,0.35,5.68,7.08,8.75,–,High,12.85
-U.S. Dividend Currency NeutralSr. B (ISC 1138),15.5558,-0.0342,0.22,2.24,5.92,4.57,–,High,7.97
-U.S. Dividend for Rising Rates Index ETFSr. B (ISC 4097),10.0695,-0.0242,0.24,3.57,–,–,–,High,2.99
-U.S. Dividend for Rising Rates Index ETFTicker FCRR,25.4,-0.0475,0.19,5,–,–,–,High,4.15
-U.S. Dividend RegisteredSr. B (ISC 1454),16.6591,-0.0581,0.35,6.1,7.45,9.17,–,High,12.35
-U.S. Dividend Systematic Currency HedgedSr. B (ISC 6842),10.1855,-0.0289,0.28,–,–,–,–,High,–
+Small Cap America Currency Neutral ClassSr. B (ISC 2655),14.5818,-0.0627,0.43,0.23,6.57,6.85,0,High,7.29
+Small Cap America Systematic Currency HedgedSr. B (ISC 6814),9.6288,-0.0502,0.52,0,0,0,0,High,0
+U.S. All CapSr. B (ISC 1497),19.2686,-0.0513,0.27,0.75,8.2,9.08,0,High,12.96
+U.S. All Cap ClassSr. B (ISC 1600),20.1832,-0.0538,0.27,0.71,8.17,9.06,0,High,12.96
+U.S. All Cap Currency Neutral ClassSr. B (ISC 2608),12.9489,-0.0173,0.13,-2.56,6.99,5.03,0,High,4.95
+U.S. Div for Rising Rates Curr Neutral Index ETFTicker FCRH,24.6455,0.0784,0.32,0.7,0,0,0,High,0.72
+U.S. DividendSr. B (ISC 966),19.8025,-0.0691,0.35,5.68,7.08,8.75,0,High,12.85
+U.S. Dividend Currency NeutralSr. B (ISC 1138),15.5558,-0.0342,0.22,2.24,5.92,4.57,0,High,7.97
+U.S. Dividend for Rising Rates Index ETFSr. B (ISC 4097),10.0695,-0.0242,0.24,3.57,0,0,0,High,2.99
+U.S. Dividend for Rising Rates Index ETFTicker FCRR,25.4,-0.0475,0.19,5,0,0,0,High,4.15
+U.S. Dividend RegisteredSr. B (ISC 1454),16.6591,-0.0581,0.35,6.1,7.45,9.17,0,High,12.35
+U.S. Dividend Systematic Currency HedgedSr. B (ISC 6842),10.1855,-0.0289,0.28,0,0,0,0,High,0
 U.S. Focused StockSr. B (ISC 234),53.1854,-0.5403,1.01,3.02,15.46,13.96,13.43,High,8.59
 U.S. Focused Stock ClassSr. B (ISC 284),21.511,-0.2187,1.01,2.98,15.42,13.92,13.35,High,4.73
-U.S. Focused Stock Currency Neutral ClassSr. B (ISC 2573),15.8106,-0.1344,0.84,-0.82,13.7,9.32,–,High,8.87
-U.S. Focused Stock Systematic Currency HedgedSr. B (ISC 6862),10.0531,-0.0948,0.93,–,–,–,–,High,–
-U.S. High Dividend Currency Neutral Index ETFSr. B (ISC 4094),9.522,0.0036,0.04,-1.39,–,–,–,High,-2.03
-U.S. High Dividend Currency Neutral Index ETFTicker FCUH,24.2146,0.0766,0.32,0.58,–,–,–,High,0.36
-U.S. High Dividend Index ETFSr. B (ISC 4089),9.8328,-0.0243,0.25,3.11,–,–,–,High,1.97
-U.S. High Dividend Index ETFTicker FCUD,24.9118,-0.0649,0.26,4.71,–,–,–,High,3.6
-U.S. High Quality Currency Neutral Index ETFSr. B (ISC 6539),11.4513,-0.0481,0.42,–,–,–,–,High,–
-U.S. High Quality Currency Neutral Index ETFTicker FCQH,29.0044,0.117,0.41,–,–,–,–,High,–
-U.S. High Quality Index ETFSr. B (ISC 6536),11.3357,-0.0712,0.62,–,–,–,–,High,–
-U.S. High Quality Index ETFTicker FCUQ,28.9595,-0.0761,0.26,–,–,–,–,High,–
-U.S. Low Volatility Currency Neutral Index ETFSr. B (ISC 6524),11.733,0.0183,0.16,–,–,–,–,High,–
-U.S. Low Volatility Currency Neutral Index ETFTicker FCLH,29.6201,0.0701,0.24,–,–,–,–,High,–
-U.S. Low Volatility Index ETFSr. B (ISC 6521),11.5747,-0.0043,0.04,–,–,–,–,High,–
-U.S. Low Volatility Index ETFTicker FCUL,29.5698,-0.0446,0.15,–,–,–,–,High,–
-US Dividend for Rising Rates Curr Neut Index ETFSr. B (ISC 4102),9.8223,-0.0203,0.21,-0.33,–,–,–,High,-0.38
-Women's LeadershipSr. B (ISC 6680),10.1551,-0.0768,0.75,–,–,–,–,High,–
-Women's Leadership Systematic Currency HedgedSr. B (ISC 6735),10.1907,-0.0703,0.69,–,–,–,–,High,–
-CanAm Opportunities ClassSr. B (ISC 6557),11.0247,-0.1429,1.28,–,–,–,–,High,–
-CanAm Opportunities Currency Neutral ClassSr. B (ISC 6589),11.0384,-0.1294,1.16,–,–,–,–,High,–
-North American Equity ClassSr. B (ISC 3478),13.3747,-0.0889,0.66,5.26,9.75,–,–,High,8.18
+U.S. Focused Stock Currency Neutral ClassSr. B (ISC 2573),15.8106,-0.1344,0.84,-0.82,13.7,9.32,0,High,8.87
+U.S. Focused Stock Systematic Currency HedgedSr. B (ISC 6862),10.0531,-0.0948,0.93,0,0,0,0,High,0
+U.S. High Dividend Currency Neutral Index ETFSr. B (ISC 4094),9.522,0.0036,0.04,-1.39,0,0,0,High,-2.03
+U.S. High Dividend Currency Neutral Index ETFTicker FCUH,24.2146,0.0766,0.32,0.58,0,0,0,High,0.36
+U.S. High Dividend Index ETFSr. B (ISC 4089),9.8328,-0.0243,0.25,3.11,0,0,0,High,1.97
+U.S. High Dividend Index ETFTicker FCUD,24.9118,-0.0649,0.26,4.71,0,0,0,High,3.6
+U.S. High Quality Currency Neutral Index ETFSr. B (ISC 6539),11.4513,-0.0481,0.42,0,0,0,0,High,0
+U.S. High Quality Currency Neutral Index ETFTicker FCQH,29.0044,0.117,0.41,0,0,0,0,High,0
+U.S. High Quality Index ETFSr. B (ISC 6536),11.3357,-0.0712,0.62,0,0,0,0,High,0
+U.S. High Quality Index ETFTicker FCUQ,28.9595,-0.0761,0.26,0,0,0,0,High,0
+U.S. Low Volatility Currency Neutral Index ETFSr. B (ISC 6524),11.733,0.0183,0.16,0,0,0,0,High,0
+U.S. Low Volatility Currency Neutral Index ETFTicker FCLH,29.6201,0.0701,0.24,0,0,0,0,High,0
+U.S. Low Volatility Index ETFSr. B (ISC 6521),11.5747,-0.0043,0.04,0,0,0,0,High,0
+U.S. Low Volatility Index ETFTicker FCUL,29.5698,-0.0446,0.15,0,0,0,0,High,0
+US Dividend for Rising Rates Curr Neut Index ETFSr. B (ISC 4102),9.8223,-0.0203,0.21,-0.33,0,0,0,High,-0.38
+Women's LeadershipSr. B (ISC 6680),10.1551,-0.0768,0.75,0,0,0,0,High,0
+Women's Leadership Systematic Currency HedgedSr. B (ISC 6735),10.1907,-0.0703,0.69,0,0,0,0,High,0
+CanAm Opportunities ClassSr. B (ISC 6557),11.0247,-0.1429,1.28,0,0,0,0,High,0
+CanAm Opportunities Currency Neutral ClassSr. B (ISC 6589),11.0384,-0.1294,1.16,0,0,0,0,High,0
+North American Equity ClassSr. B (ISC 3478),13.3747,-0.0889,0.66,5.26,9.75,0,0,High,8.18
 AsiaStarSr. B (ISC 1208),22.2619,-0.1472,0.66,1.65,7.77,9.05,7.38,High-to-Medium,6.24
 AsiaStar ClassSr. B (ISC 1215),18.1047,-0.1197,0.66,1.64,7.78,9.05,7.35,High-to-Medium,5.19
 ChinaSr. B (ISC 1206),32.5795,-0.4165,1.26,-5.8,5.92,10.51,7.05,High-to-Medium,9.32
@@ -82,51 +82,51 @@ EuropeSr. B (ISC 228),36.6715,-0.0082,0.02,-3.9,4.38,3.49,5.59,High-to-Medium,6.
 Europe ClassSr. B (ISC 298),21.9661,-0.005,0.02,-3.92,4.34,3.47,5.6,High-to-Medium,4.48
 Far EastSr. B (ISC 227),50.1482,-0.4541,0.9,5.27,8.69,9.96,8.41,High-to-Medium,9.27
 Far East ClassSr. B (ISC 216),44.9942,-0.4075,0.9,5.26,8.67,9.94,8.36,High-to-Medium,9.1
-Founders ClassSr. B (ISC 6272),10.9659,-0.1399,1.26,0.38,–,–,–,High-to-Medium,7.12
-Founders Currency Neutral ClassSr. B (ISC 6334),10.3916,-0.1156,1.1,-3.35,–,–,–,High-to-Medium,2.61
+Founders ClassSr. B (ISC 6272),10.9659,-0.1399,1.26,0.38,0,0,0,High-to-Medium,7.12
+Founders Currency Neutral ClassSr. B (ISC 6334),10.3916,-0.1156,1.1,-3.35,0,0,0,High-to-Medium,2.61
 Frontier Emerging MarketsSr. B (ISC 251),15.4834,-0.076,0.49,-2.98,-1.43,-5.17,-3.26,High-to-Medium,2.09
 GlobalSr. B (ISC 230),56.9548,-0.1958,0.34,0.41,9.32,10.29,9.35,High-to-Medium,6.73
 Global ClassSr. B (ISC 278),19.2711,-0.0663,0.34,0.38,9.29,10.29,9.35,High-to-Medium,4.47
 Global Concentrated EquitySr. B (ISC 207),14.3248,-0.034,0.24,1.64,7.61,9.87,8.95,High-to-Medium,2.91
-Global Concentrated Equity ClassSr. B (ISC 2253),16.4682,-0.0392,0.24,1.66,7.6,9.84,–,High-to-Medium,9.13
-Global Concentrated Equity Currency NeutralSr. B (ISC 6051),9.7575,-0.0269,0.27,1.62,–,–,–,High-to-Medium,1.77
+Global Concentrated Equity ClassSr. B (ISC 2253),16.4682,-0.0392,0.24,1.66,7.6,9.84,0,High-to-Medium,9.13
+Global Concentrated Equity Currency NeutralSr. B (ISC 6051),9.7575,-0.0269,0.27,1.62,0,0,0,High-to-Medium,1.77
 Global Disciplined EquitySr. B (ISC 200),19.2194,-0.1187,0.61,0.16,7.87,8.3,8.45,High-to-Medium,4.55
 Global Disciplined Equity ClassSr. B (ISC 201),18.7868,-0.1162,0.61,0.14,7.88,8.32,8.43,High-to-Medium,4.47
-Global Disciplined Equity Currency Neutral ClassSr. B (ISC 1372),17.8507,-0.1025,0.57,-1.46,7.6,5.39,–,High-to-Medium,6.75
+Global Disciplined Equity Currency Neutral ClassSr. B (ISC 1372),17.8507,-0.1025,0.57,-1.46,7.6,5.39,0,High-to-Medium,6.75
 Global DividendSr. B (ISC 1240),13.4943,-0.0263,0.19,6.41,6.67,8.44,9.23,High-to-Medium,3.91
 Global Dividend ClassSr. B (ISC 1242),14.8787,-0.0291,0.2,6.4,6.65,8.43,9.22,High-to-Medium,3.9
-Global Growth and Value ClassSr. B (ISC 3998),9.8855,-0.0597,0.6,-2,–,–,–,High-to-Medium,-0.9
-Global Growth and Value Currency Neutral ClassSr. B (ISC 4060),9.7924,-0.0493,0.5,-5.23,–,–,–,High-to-Medium,-2.13
-Global Innovators ClassSr. B (ISC 5973),12.113,-0.3256,2.62,-0.2,–,–,–,High-to-Medium,10.43
-Global Innovators Currency Neutral ClassSr. B (ISC 6000),11.6842,-0.2946,2.46,-3.7,–,–,–,High-to-Medium,7.9
-Global Intrinsic Value ClassSr. B (ISC 2928),13.5678,0.0023,0.02,-3.52,5.7,–,–,High-to-Medium,7.08
-Global Intrinsic Value Currency Neutral ClassSr. B (ISC 4132),12.0584,0.0076,0.06,-6.07,5.79,–,–,High-to-Medium,4.66
-Global Large CapSr. B (ISC 1036),18.517,-0.1129,0.61,0.02,7.85,8.35,–,High-to-Medium,9.56
-Global Large Cap ClassSr. B (ISC 1089),20.6317,-0.1258,0.61,-0.02,7.8,8.31,–,High-to-Medium,9.51
-Global Large Cap Currency Neutral ClassSr. B (ISC 1151),16.8259,-0.0954,0.56,-1.59,7.52,5.43,–,High-to-Medium,6.47
-Global Small CapSr. B (ISC 1190),17.1685,-0.0476,0.28,-0.51,4.36,6.62,–,High-to-Medium,7.55
-Global Small Cap ClassSr. B (ISC 1233),18.8024,-0.0521,0.28,-0.55,4.32,6.61,–,High-to-Medium,7.59
+Global Growth and Value ClassSr. B (ISC 3998),9.8855,-0.0597,0.6,-2,0,0,0,High-to-Medium,-0.9
+Global Growth and Value Currency Neutral ClassSr. B (ISC 4060),9.7924,-0.0493,0.5,-5.23,0,0,0,High-to-Medium,-2.13
+Global Innovators ClassSr. B (ISC 5973),12.113,-0.3256,2.62,-0.2,0,0,0,High-to-Medium,10.43
+Global Innovators Currency Neutral ClassSr. B (ISC 6000),11.6842,-0.2946,2.46,-3.7,0,0,0,High-to-Medium,7.9
+Global Intrinsic Value ClassSr. B (ISC 2928),13.5678,0.0023,0.02,-3.52,5.7,0,0,High-to-Medium,7.08
+Global Intrinsic Value Currency Neutral ClassSr. B (ISC 4132),12.0584,0.0076,0.06,-6.07,5.79,0,0,High-to-Medium,4.66
+Global Large CapSr. B (ISC 1036),18.517,-0.1129,0.61,0.02,7.85,8.35,0,High-to-Medium,9.56
+Global Large Cap ClassSr. B (ISC 1089),20.6317,-0.1258,0.61,-0.02,7.8,8.31,0,High-to-Medium,9.51
+Global Large Cap Currency Neutral ClassSr. B (ISC 1151),16.8259,-0.0954,0.56,-1.59,7.52,5.43,0,High-to-Medium,6.47
+Global Small CapSr. B (ISC 1190),17.1685,-0.0476,0.28,-0.51,4.36,6.62,0,High-to-Medium,7.55
+Global Small Cap ClassSr. B (ISC 1233),18.8024,-0.0521,0.28,-0.55,4.32,6.61,0,High-to-Medium,7.59
 International Concentrated EquitySr. B (ISC 1202),10.8038,-0.0406,0.37,-3.54,3.19,3.06,3.84,High-to-Medium,1.15
-International Concentrated Equity Curr NeutSr. B (ISC 6068),9.5154,-0.0486,0.51,-1.6,–,–,–,High-to-Medium,-2.56
+International Concentrated Equity Curr NeutSr. B (ISC 6068),9.5154,-0.0486,0.51,-1.6,0,0,0,High-to-Medium,-2.56
 International Disciplined EquitySr. B (ISC 1204),11.337,-0.0316,0.28,-1.12,4.07,4.15,4.72,High-to-Medium,1.47
 International Disciplined Equity ClassSr. B (ISC 1263),9.7716,-0.0273,0.28,-1.14,4.07,4.16,4.7,High-to-Medium,0.6
-International Disciplined Equity CN ClassSr. B (ISC 1371),15.6432,-0.063,0.4,0.5,5.81,3.73,–,High-to-Medium,4.74
+International Disciplined Equity CN ClassSr. B (ISC 1371),15.6432,-0.063,0.4,0.5,5.81,3.73,0,High-to-Medium,4.74
 International GrowthSr. B (ISC 270),15.7935,-0.0365,0.23,7.17,7.97,8.93,7.06,High-to-Medium,2.35
-International Growth ClassSr. B (ISC 2207),15.587,-0.036,0.23,7.11,7.89,8.87,–,High-to-Medium,7.94
-International High Dividend Index ETFSr. B (ISC 4105),9.5817,0.0072,0.08,-3.85,–,–,–,High-to-Medium,-3.88
-International High Dividend Index ETFTicker FCID,24.4879,-0.0329,0.13,,-2.58,–,–,High-to-Medium,-1.05
-International High Quality Index ETFSr. B (ISC 6542),10.712,-0.0401,0.37,–,–,–,–,High-to-Medium,–
-International High Quality Index ETFTicker FCIQ,27.1095,-0.0981,0.36,–,–,–,–,High-to-Medium,–
-International Low Volatility Index ETFSr. B (ISC 6527),10.5167,-0.0083,0.08,–,–,–,–,High-to-Medium,–
-International Low Volatility Index ETFTicker FCIL,26.81,-0.09,0.33,–,–,–,–,High-to-Medium,–
+International Growth ClassSr. B (ISC 2207),15.587,-0.036,0.23,7.11,7.89,8.87,0,High-to-Medium,7.94
+International High Dividend Index ETFSr. B (ISC 4105),9.5817,0.0072,0.08,-3.85,0,0,0,High-to-Medium,-3.88
+International High Dividend Index ETFTicker FCID,24.4879,-0.0329,0.13,,-2.58,0,0,High-to-Medium,-1.05
+International High Quality Index ETFSr. B (ISC 6542),10.712,-0.0401,0.37,0,0,0,0,High-to-Medium,0
+International High Quality Index ETFTicker FCIQ,27.1095,-0.0981,0.36,0,0,0,0,High-to-Medium,0
+International Low Volatility Index ETFSr. B (ISC 6527),10.5167,-0.0083,0.08,0,0,0,0,High-to-Medium,0
+International Low Volatility Index ETFTicker FCIL,26.81,-0.09,0.33,0,0,0,0,High-to-Medium,0
 JapanSr. B (ISC 220),11.7628,-0.0275,0.23,-3.47,3.39,6.07,4.64,High-to-Medium,0.63
 Japan ClassSr. B (ISC 214),12.0561,-0.0282,0.23,-3.49,3.37,6.03,4.62,High-to-Medium,1.05
 NorthStarSr. B (ISC 253),25.8253,-0.0138,0.05,-4.67,-0.72,3.83,8.24,High-to-Medium,6.67
 NorthStar ClassSr. B (ISC 210),28.1746,-0.015,0.05,-4.68,-0.72,3.84,8.25,High-to-Medium,6.64
-NorthStar Currency Neutral ClassSr. B (ISC 1283),16.3607,-0.0059,0.04,-6.33,-0.59,1.56,–,High-to-Medium,6.12
-Sustainable World ETFSr. B (ISC 6782),10.2022,-0.0233,0.23,–,–,–,–,High-to-Medium,–
-Sustainable World ETFTicker FCSW,26.0603,-0.0849,0.32,–,–,–,–,High-to-Medium,–
-Tactical Global Dividend ETFSr. B (ISC 4110),9.807,-0.0252,0.26,0.99,–,–,–,High-to-Medium,0.26
+NorthStar Currency Neutral ClassSr. B (ISC 1283),16.3607,-0.0059,0.04,-6.33,-0.59,1.56,0,High-to-Medium,6.12
+Sustainable World ETFSr. B (ISC 6782),10.2022,-0.0233,0.23,0,0,0,0,High-to-Medium,0
+Sustainable World ETFTicker FCSW,26.0603,-0.0849,0.32,0,0,0,0,High-to-Medium,0
+Tactical Global Dividend ETFSr. B (ISC 4110),9.807,-0.0252,0.26,0.99,0,0,0,High-to-Medium,0.26
 Global Consumer IndustriesSr. B (ISC 212),50.0576,-0.5225,1.03,5.92,9.66,11.92,12.26,Medium,7.87
 Global Consumer Industries ClassSr. B (ISC 205),35.4045,-0.3699,1.03,5.9,9.64,11.93,12.26,Medium,7.49
 Global Financial ServicesSr. B (ISC 248),31.3658,0.0003,0,0.69,7.81,8.83,8.21,Medium,6.1
@@ -147,77 +147,77 @@ Canadian BalancedSr. B (ISC 282),24.0092,-0.0341,0.14,6.05,4.21,4.94,6.56,Low,7.
 Canadian Balanced ClassSr. B (ISC 226),25.2911,-0.036,0.14,6.03,4.21,4.95,6.58,Low,6.72
 Income AllocationSr. B (ISC 294),15.8007,0.013,0.08,8.7,2.72,4.17,6.89,Low,7.24
 Monthly IncomeSr. B (ISC 269),17.4929,-0.0091,0.05,7.71,2.96,4.03,6.71,Low,6.94
-Monthly Income ClassSr. B (ISC 416),14.479,-0.0075,0.05,7.7,2.93,3.95,–,Low,5.83
-American BalancedSr. B (ISC 2958),13.0058,-0.0396,0.3,3.95,6.39,–,–,High-to-Medium,7
-American Balanced Currency NeutralSr. B (ISC 3532),12.2527,-0.0224,0.18,0.5,5.57,–,–,High-to-Medium,6.37
-U.S. Monthly IncomeSr. B (ISC 1330),18.7131,-0.0435,0.23,8.3,5.22,7.75,–,High-to-Medium,9.76
-U.S. Monthly Income Currency NeutralSr. B (ISC 2697),18.1458,-0.015,0.08,4.58,4.05,3.71,–,High-to-Medium,3.57
-Conservative IncomeSr. B (ISC 2732),10.5959,0.0032,0.03,6.79,2.41,–,–,Medium,3.33
+Monthly Income ClassSr. B (ISC 416),14.479,-0.0075,0.05,7.7,2.93,3.95,0,Low,5.83
+American BalancedSr. B (ISC 2958),13.0058,-0.0396,0.3,3.95,6.39,0,0,High-to-Medium,7
+American Balanced Currency NeutralSr. B (ISC 3532),12.2527,-0.0224,0.18,0.5,5.57,0,0,High-to-Medium,6.37
+U.S. Monthly IncomeSr. B (ISC 1330),18.7131,-0.0435,0.23,8.3,5.22,7.75,0,High-to-Medium,9.76
+U.S. Monthly Income Currency NeutralSr. B (ISC 2697),18.1458,-0.015,0.08,4.58,4.05,3.71,0,High-to-Medium,3.57
+Conservative IncomeSr. B (ISC 2732),10.5959,0.0032,0.03,6.79,2.41,0,0,Medium,3.33
 Global Asset AllocationSr. B (ISC 249),29.0269,-0.0726,0.25,4.44,5.46,6.65,6.77,Medium,5.52
 Global Monthly IncomeSr. B (ISC 1222),13.5884,-0.0233,0.17,7.2,4.53,7.17,7.72,Medium,4.44
-Global Monthly Income Currency NeutralSr. B (ISC 4140),11.4199,-0.0126,0.11,5.13,4.5,–,–,Medium,5.72
-NorthStar BalancedSr. B (ISC 2407),11.991,-0.006,0.05,2.96,1.38,5.22,–,Medium,5.47
-NorthStar Balanced Currency NeutralSr. B (ISC 2437),11.0498,0.0037,0.03,0.24,0.77,2.12,–,Medium,2.33
-Tactical High IncomeSr. B (ISC 2453),12.1612,-0.074,0.6,11.37,4.49,8.1,–,Medium,8.08
-Tactical High Income Currency NeutralSr. B (ISC 2484),10.6307,-0.0486,0.46,7.4,3.29,4.1,–,Medium,3.82
-Tactical StrategiesSr. B (ISC 1344),12.3451,-0.0435,0.35,1.05,4.56,5.4,–,Medium,5.3
+Global Monthly Income Currency NeutralSr. B (ISC 4140),11.4199,-0.0126,0.11,5.13,4.5,0,0,Medium,5.72
+NorthStar BalancedSr. B (ISC 2407),11.991,-0.006,0.05,2.96,1.38,5.22,0,Medium,5.47
+NorthStar Balanced Currency NeutralSr. B (ISC 2437),11.0498,0.0037,0.03,0.24,0.77,2.12,0,Medium,2.33
+Tactical High IncomeSr. B (ISC 2453),12.1612,-0.074,0.6,11.37,4.49,8.1,0,Medium,8.08
+Tactical High Income Currency NeutralSr. B (ISC 2484),10.6307,-0.0486,0.46,7.4,3.29,4.1,0,Medium,3.82
+Tactical StrategiesSr. B (ISC 1344),12.3451,-0.0435,0.35,1.05,4.56,5.4,0,Medium,5.3
 Canadian BondSr. B (ISC 233),14.6938,0.0323,0.22,8.67,1.95,3,3.56,Medium,5.79
 Canadian Money MarketSr. B (ISC 229),10,0,0,1.21,0.69,0.48,0.46,Medium,2.48
 Canadian Short Term BondSr. B (ISC 285),10.1947,0.01,0.1,3.63,0.84,1.15,1.79,Medium,3.91
-Canadian Short Term Corporate Bond ETFSr. B (ISC 6771),9.9467,0.0076,0.08,,–,–,–,Medium,–
-Canadian Short Term Corporate Bond ETFTicker FCSB,24.9369,-0.0053,0.02,–,–,–,–,Medium,–
+Canadian Short Term Corporate Bond ETFSr. B (ISC 6771),9.9467,0.0076,0.08,,0,0,0,Medium,0
+Canadian Short Term Corporate Bond ETFTicker FCSB,24.9369,-0.0053,0.02,0,0,0,0,Medium,0
 Canadian Short Term Income ClassSr. B (ISC 246),12.3447,0.0004,0,1.2,0.7,0.48,0.45,Medium,1.17
-Corporate BondSr. B (ISC 1634),11.0742,0.0223,0.2,7.61,2.91,3.01,–,Medium,3.64
-Corporate Bond ClassSr. B (ISC 1444),12.7394,0.0256,0.2,7.59,2.88,2.97,–,Medium,3.35
-Systematic Canadian Bond Index ETFSr. B (ISC 6774),9.9072,0.0157,0.16,–,–,–,–,Medium,–
-Systematic Canadian Bond Index ETFTicker FCCB,24.7455,-0.0114,0.05,–,–,–,–,Medium,–
-Tactical Fixed IncomeSr. B (ISC 797),9.0099,0.0186,0.21,8.7,2.36,3.18,–,Medium,2.96
+Corporate BondSr. B (ISC 1634),11.0742,0.0223,0.2,7.61,2.91,3.01,0,Medium,3.64
+Corporate Bond ClassSr. B (ISC 1444),12.7394,0.0256,0.2,7.59,2.88,2.97,0,Medium,3.35
+Systematic Canadian Bond Index ETFSr. B (ISC 6774),9.9072,0.0157,0.16,0,0,0,0,Medium,0
+Systematic Canadian Bond Index ETFTicker FCCB,24.7455,-0.0114,0.05,0,0,0,0,Medium,0
+Tactical Fixed IncomeSr. B (ISC 797),9.0099,0.0186,0.21,8.7,2.36,3.18,0,Medium,2.96
 American High YieldSr. B (ISC 255),9.1709,-0.0118,0.13,6.83,5.13,7.52,8.37,Low-to-Medium,5.82
 American High Yield Currency NeutralSr. B (ISC 1255),8.737,0.0028,0.03,3.05,3.92,3.52,5.95,Low-to-Medium,5.15
-Floating Rate High IncomeSr. B (ISC 2187),11.765,-0.0126,0.11,4.94,3.49,6.28,–,Low-to-Medium,7.01
-Floating Rate High Income Currency NeutralSr. B (ISC 2673),9.2854,0.005,0.05,1.4,2.43,2.58,–,Low-to-Medium,2.44
-Multi-Sector BondSr. B (ISC 5724),9.885,-0.0074,0.07,11.49,–,–,–,Low-to-Medium,2.77
-Multi-Sector Bond Currency NeutralSr. B (ISC 5755),10.0772,0.0079,0.08,7.79,–,–,–,Low-to-Medium,3.41
-Systematic U.S. HghYld Bond Currency Neutral ETFSr. B (ISC 6768),9.997,-0.0002,0,–,–,–,–,Low-to-Medium,–
-Systematic U.S. HghYld Bond Currency Neutral ETFTicker FCHH,24.9865,0.0494,0.2,–,–,–,–,Low-to-Medium,–
-Systematic U.S. High Yield Bond ETFTicker FCHY,24.8024,-0.1,0.4,–,–,–,–,Low-to-Medium,–
-Systematic U.S. High Yield Bond ETF FundSr. B (ISC 6765),9.9139,0.0436,0.44,–,–,–,–,Low-to-Medium,–
+Floating Rate High IncomeSr. B (ISC 2187),11.765,-0.0126,0.11,4.94,3.49,6.28,0,Low-to-Medium,7.01
+Floating Rate High Income Currency NeutralSr. B (ISC 2673),9.2854,0.005,0.05,1.4,2.43,2.58,0,Low-to-Medium,2.44
+Multi-Sector BondSr. B (ISC 5724),9.885,-0.0074,0.07,11.49,0,0,0,Low-to-Medium,2.77
+Multi-Sector Bond Currency NeutralSr. B (ISC 5755),10.0772,0.0079,0.08,7.79,0,0,0,Low-to-Medium,3.41
+Systematic U.S. HghYld Bond Currency Neutral ETFSr. B (ISC 6768),9.997,-0.0002,0,0,0,0,0,Low-to-Medium,0
+Systematic U.S. HghYld Bond Currency Neutral ETFTicker FCHH,24.9865,0.0494,0.2,0,0,0,0,Low-to-Medium,0
+Systematic U.S. High Yield Bond ETFTicker FCHY,24.8024,-0.1,0.4,0,0,0,0,Low-to-Medium,0
+Systematic U.S. High Yield Bond ETF FundSr. B (ISC 6765),9.9139,0.0436,0.44,0,0,0,0,Low-to-Medium,0
 Global BondSr. B (ISC 1225),12.0523,-0.0034,0.03,10.2,1.68,4.95,3.45,High,3.52
 Global Bond Currency NeutralSr. B (ISC 1227),11.4431,-0.0025,0.02,9.45,2.65,3.36,3.36,High,3.34
-Global Core Plus Bond ETFSr. B (ISC 6597),9.9904,-0.0002,0,–,–,–,–,High,–
-Global Core Plus Bond ETFTicker FCGB,25.0116,0.011,0.04,–,–,–,–,High,–
-Investment Grade Total BondSr. B (ISC 6139),10.8477,-0.009,0.08,11,–,–,–,High,8.67
-Investment Grade Total Bond Currency NeutralSr. B (ISC 6170),10.1382,0.0075,0.07,7.32,–,–,–,High,3.5
-Strategic IncomeSr. B (ISC 2715),10.581,-0.0109,0.1,8.02,3.56,–,–,High,5.58
-Strategic Income Currency NeutralSr. B (ISC 3504),9.8639,0.0024,0.02,4.84,2.77,–,–,High,3.85
-Asset Allocation Currency Neutral Private PoolSr. B (ISC 731),13.8122,-0.0096,0.07,4.82,2.97,3.21,–,Low-to-Medium,4.65
-Asset Allocation Private PoolSr. B (ISC 113),15.0274,-0.0181,0.12,5.77,3.12,4.71,–,Low-to-Medium,5.96
-Balanced Currency Neutral Private PoolSr. B (ISC 1067),15.6256,-0.0254,0.16,4.43,3.7,3.62,–,Low-to-Medium,5.07
-Balanced Income Currency Neutral Private PoolSr. B (ISC 1068),14.3516,-0.0099,0.07,4.44,2.78,2.95,–,Low-to-Medium,4.01
+Global Core Plus Bond ETFSr. B (ISC 6597),9.9904,-0.0002,0,0,0,0,0,High,0
+Global Core Plus Bond ETFTicker FCGB,25.0116,0.011,0.04,0,0,0,0,High,0
+Investment Grade Total BondSr. B (ISC 6139),10.8477,-0.009,0.08,11,0,0,0,High,8.67
+Investment Grade Total Bond Currency NeutralSr. B (ISC 6170),10.1382,0.0075,0.07,7.32,0,0,0,High,3.5
+Strategic IncomeSr. B (ISC 2715),10.581,-0.0109,0.1,8.02,3.56,0,0,High,5.58
+Strategic Income Currency NeutralSr. B (ISC 3504),9.8639,0.0024,0.02,4.84,2.77,0,0,High,3.85
+Asset Allocation Currency Neutral Private PoolSr. B (ISC 731),13.8122,-0.0096,0.07,4.82,2.97,3.21,0,Low-to-Medium,4.65
+Asset Allocation Private PoolSr. B (ISC 113),15.0274,-0.0181,0.12,5.77,3.12,4.71,0,Low-to-Medium,5.96
+Balanced Currency Neutral Private PoolSr. B (ISC 1067),15.6256,-0.0254,0.16,4.43,3.7,3.62,0,Low-to-Medium,5.07
+Balanced Income Currency Neutral Private PoolSr. B (ISC 1068),14.3516,-0.0099,0.07,4.44,2.78,2.95,0,Low-to-Medium,4.01
 Balanced Income Private PoolSr. B (ISC 9019),17.2975,-0.0171,0.1,5.26,2.81,4.15,4.78,Low-to-Medium,5.54
 Balanced Private PoolSr. B (ISC 9018),19.4512,-0.0383,0.2,5.31,3.77,5,5.88,Low-to-Medium,6.86
 Canadian Equity Private PoolSr. B (ISC 9010),20.6496,-0.0588,0.28,8.86,6.31,5.32,6.42,Low-to-Medium,9.09
 Concentrated Canadian Equity Private PoolSr. B (ISC 9011),21.7916,-0.068,0.31,9.63,6.5,5.84,7.36,Low-to-Medium,9.42
-Concentrated Value Private PoolSr. B (ISC 906),17.4517,-0.0314,0.18,8.79,3.3,5.06,–,Low-to-Medium,9
-Conservative Income Private PoolSr. B (ISC 2705),10.8949,0.0045,0.04,7.21,2.61,–,–,Low-to-Medium,4.14
-Global Asset Allocation Currency Neut Private PoolSr. B (ISC 5955),10.0501,-0.0224,0.22,1.72,–,–,–,Low-to-Medium,1.65
-Global Asset Allocation Private PoolSr. B (ISC 5946),10.0182,-0.0289,0.29,3.56,–,–,–,Low-to-Medium,3.01
-Global Equity Currency Neutral Private PoolSr. B (ISC 1065),20.3404,-0.0428,0.21,1.76,6.92,4.92,–,Low-to-Medium,7.37
+Concentrated Value Private PoolSr. B (ISC 906),17.4517,-0.0314,0.18,8.79,3.3,5.06,0,Low-to-Medium,9
+Conservative Income Private PoolSr. B (ISC 2705),10.8949,0.0045,0.04,7.21,2.61,0,0,Low-to-Medium,4.14
+Global Asset Allocation Currency Neut Private PoolSr. B (ISC 5955),10.0501,-0.0224,0.22,1.72,0,0,0,Low-to-Medium,1.65
+Global Asset Allocation Private PoolSr. B (ISC 5946),10.0182,-0.0289,0.29,3.56,0,0,0,Low-to-Medium,3.01
+Global Equity Currency Neutral Private PoolSr. B (ISC 1065),20.3404,-0.0428,0.21,1.76,6.92,4.92,0,Low-to-Medium,7.37
 Global Equity Private PoolSr. B (ISC 9014),24.6559,-0.042,0.17,2.03,6.27,7.23,8.61,Low-to-Medium,8.82
-International Equity Currency Neutral Private PoolSr. B (ISC 1058),15.3884,-0.0723,0.47,-1.24,3.96,2.23,–,Low-to-Medium,4.52
+International Equity Currency Neutral Private PoolSr. B (ISC 1058),15.3884,-0.0723,0.47,-1.24,3.96,2.23,0,Low-to-Medium,4.52
 International Equity Private PoolSr. B (ISC 9013),17.3988,-0.059,0.34,-3.07,1.75,2.73,4.4,Low-to-Medium,5.18
 Premium Fixed Income Private PoolSr. B (ISC 9015),11.6296,0.0256,0.22,8.79,2.05,3.1,3.67,Low-to-Medium,4.24
-Premium Fixed Income Private Pool ClassSr. B (ISC 1491),12.4422,0.0274,0.22,8.76,2.04,3.07,–,Low-to-Medium,3.08
+Premium Fixed Income Private Pool ClassSr. B (ISC 1491),12.4422,0.0274,0.22,8.76,2.04,3.07,0,Low-to-Medium,3.08
 Premium Money Market Private PoolSr. B (ISC 9016),10,0,0,1.27,0.74,0.52,0.5,Low-to-Medium,0.53
-Premium Tactical Fixed Income Private PoolSr. B (ISC 904),8.9981,0.0186,0.21,9.09,2.57,3.34,–,Low-to-Medium,2.94
-U.S. Dividend Private PoolSr. B (ISC 1994),13.0733,-0.0455,0.35,5.81,7.2,8.91,–,Low-to-Medium,10.96
-U.S. Equity Currency Neutral Private PoolSr. B (ISC 1057),22.0553,-0.1284,0.58,-0.14,8.34,6.14,–,Low-to-Medium,9.06
+Premium Tactical Fixed Income Private PoolSr. B (ISC 904),8.9981,0.0186,0.21,9.09,2.57,3.34,0,Low-to-Medium,2.94
+U.S. Dividend Private PoolSr. B (ISC 1994),13.0733,-0.0455,0.35,5.81,7.2,8.91,0,Low-to-Medium,10.96
+U.S. Equity Currency Neutral Private PoolSr. B (ISC 1057),22.0553,-0.1284,0.58,-0.14,8.34,6.14,0,Low-to-Medium,9.06
 U.S. Equity Private PoolSr. B (ISC 9012),27.8413,-0.208,0.74,,3.96,9.89,10.58,Low-to-Medium,11.61
 U.S. Growth and Income Private PoolSr. B (ISC 1975),14.8919,-0.0792,0.53,,4.65,6.62,8.31,Low-to-Medium,9.51
 Balanced Class PortfolioSr. B (ISC 2283),16.0634,-0.0477,0.3,4.97,4.14,5.27,6.51,Low-to-Medium,4.46
-Balanced Managed Risk PortfolioSr. B (ISC 5260),11.0469,-0.001,0.01,7.53,–,–,–,Low-to-Medium,5.6
+Balanced Managed Risk PortfolioSr. B (ISC 5260),11.0469,-0.001,0.01,7.53,0,0,0,Low-to-Medium,5.6
 Balanced PortfolioSr. B (ISC 2203),12.953,-0.0384,0.3,,5.01,4.17,5.29,Low-to-Medium,4.48
-Conservative Managed Risk PortfolioSr. B (ISC 5299),10.7445,0.0038,0.04,8.03,–,–,–,Low-to-Medium,4.56
+Conservative Managed Risk PortfolioSr. B (ISC 5299),10.7445,0.0038,0.04,8.03,0,0,0,Low-to-Medium,4.56
 Global Balanced Class PortfolioSr. B (ISC 2284),16.8819,-0.0542,0.32,4.36,4.73,6.13,7.02,Low-to-Medium,4.41
 Global Balanced PortfolioSr. B (ISC 2204),14.0417,-0.0448,0.32,,4.38,4.75,6.15,Low-to-Medium,4.46
 Global Growth Class PortfolioSr. B (ISC 2286),18.4461,-0.0908,0.49,3.8,6.74,7.6,8.8,Low-to-Medium,5.25
@@ -237,7 +237,7 @@ ClearPath 2030Sr. B (ISC 730),17.1904,-0.048,0.28,4.69,5.04,5.44,7.02,Low,5.81
 ClearPath 2035Sr. B (ISC 735),18.1417,-0.0648,0.36,4.18,5.82,6.04,7.73,Low,6.26
 ClearPath 2040Sr. B (ISC 740),18.4236,-0.0826,0.45,3.71,6.01,6.16,7.91,Low,6.38
 ClearPath 2045Sr. B (ISC 745),18.7458,-0.084,0.45,3.71,6.01,6.14,8.02,Low,6.44
-ClearPath 2050Sr. B (ISC 2543),12.4215,-0.0558,0.45,3.69,5.98,6.14,–,Low,6.08
-ClearPath 2055Sr. B (ISC 2549),12.4589,-0.0559,0.45,3.66,5.96,6.08,–,Low,6.02
-ClearPath 2060Sr. B (ISC 6248),10.0462,-0.045,0.45,3.73,–,–,–,Low,3.02
+ClearPath 2050Sr. B (ISC 2543),12.4215,-0.0558,0.45,3.69,5.98,6.14,0,Low,6.08
+ClearPath 2055Sr. B (ISC 2549),12.4589,-0.0559,0.45,3.66,5.96,6.08,0,Low,6.02
+ClearPath 2060Sr. B (ISC 6248),10.0462,-0.045,0.45,3.73,0,0,0,Low,3.02
 ClearPath IncomeSr. B (ISC 777),13.2797,0.002,0.02,4.31,2.26,2.95,4.14,Low,3.96
