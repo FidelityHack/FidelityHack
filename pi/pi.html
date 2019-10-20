@@ -13,7 +13,7 @@
 		</style>
 	</head>
 	<body>
-		<canvas id = "pi" width = "500" height = "500"></canvas>
+		<canvas id = "pi" width = "200" height = "200"></canvas>
 		<script>
 			var ctx = document.getElementById("pi").getContext("2d");
 
@@ -44,6 +44,22 @@
 					responsive: true,
 				}
 			});
+
+			var piChart = document.getElementById("pi");
+			piChart.onclick = function(event) {
+				var points = pi.getElementsAtEvent(event);
+				if (points[0]) {
+					var chartData = points[0]['_chart'].config.data;
+					var index = points[0]['_index'];
+					var label = chartData.labels[index];
+					var value = chartData.datasets[0].data[index];
+					var output = "label:" + label + ", value:" + value;
+						
+					console.log(output);
+					alert(output);
+				}
+			};
+
 		</script>
 	</body>
 </html>
